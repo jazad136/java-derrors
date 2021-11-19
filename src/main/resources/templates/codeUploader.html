@@ -1,0 +1,32 @@
+<html lang="en" xmlns:th="http://wwww.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Jonathan Code Analyzer | Submitter</title>
+    <link rel="stylesheet" type="text/css" href="../css/codeUploader.css"/>
+</head>
+<body>
+	<form action="submit">
+		<div>
+			<h2>Fill out this form:</h2>
+		</div>
+		<div class="form-box">
+			<div class="box">
+				<label id="filename-lbl" for="filename">Filename:</label>
+			</div>
+			<div class="box">
+				<input id="filename" name="filename" type="text" placeholder="Filename"></input>
+			</div>
+			<div class="box">
+				<label id="language-lbl" for="language">Select a Source Code Language:</label>
+			</div>
+			<div class="box">
+				<select name="language" id="language">
+					<option value="Java" selected>Java</option>
+				</select>
+			</div>
+			<div class="box">
+				<button id="sub-button" type="submit" value="submitted">Submit</button>
+			</div>
+		</div>
+	</form>
+</body>
